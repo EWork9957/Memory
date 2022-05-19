@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+        <title>Memory</title>
+    </head>
+    <body>
+        <div class="counterSection">
+            <br>
+            <h1 id="movesTitle">Moves:</h1>
+            <div>
+                <h3 id="counter-label">0</h3>
+            </div> 
+            
+            <!--h1 id="hsSection">High Score:</!--h1>
+            <div>
+                <h3 id="hs-label">0</h3>
+            </div--> 
+
+            <!--h1 id="resetTitle">Reset:</!--h1-->
+            <button id="resetButton" class="big-button" onClick="window.location.reload();">Reset</button>
+        </div>
+
+        <img class="title" src="images/A Memory.png" alt="Memory!">
+        <section class="memory-game"><!--onclick="incrementClick()"-->
+<!--Set 1-->
+            <div class="memory-card" data-framework="Match 1">
+                <img class="front-face" src="images/A go.png" alt="Design 1">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+            <div class="memory-card" data-framework="Match 1">
+                <img class="front-face" src="images/A go.png" alt="Design 1">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+<!--Set 2-->
+            <div class="memory-card" data-framework="Match 2">
+                <img class="front-face" src="images/A splash.png" alt="Design 2">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+            <div class="memory-card" data-framework="Match 2">
+                <img class="front-face" src="images/A splash.png" alt="Design 2">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+<!--Set 3-->
+            <div class="memory-card" data-framework="Match 3">
+                <img class="front-face" src="images/A leaf.png" alt="Design 3">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+            <div class="memory-card" data-framework="Match 3">
+                <img class="front-face" src="images/A leaf.png" alt="Design 3">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+<!--Set 4-->
+            <div class="memory-card" data-framework="Match 4">
+                <img class="front-face" src="images/A drop.png" alt="Design 4">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+            <div class="memory-card" data-framework="Match 4">
+                <img class="front-face" src="images/A drop.png" alt="Design 4">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+<!--Set 5-->          
+            <div class="memory-card" data-framework="Match 5">
+                <img class="front-face" src="images/A dmnd.png" alt="Design 5">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+            <div class="memory-card" data-framework="Match 5">
+                <img class="front-face" src="images/A dmnd.png" alt="Design 5">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+<!--Set 6-->
+            <div class="memory-card" data-framework="Match 6">
+                <img class="front-face" src="images/A star.png" alt="Design 6">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+            <div class="memory-card" data-framework="Match 6">
+                <img class="front-face" src="images/A star.png" alt="Design 6">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+<!--Set 7-->
+            <div class="memory-card" data-framework="Match 7">
+                <img class="front-face" src="images/A flow.png" alt="Design 7">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+            <div class="memory-card" data-framework="Match 7">
+                <img class="front-face" src="images/A flow.png" alt="Design 7">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+<!--Set 8-->
+            <div class="memory-card" data-framework="Match 8">
+                <img class="front-face" src="images/A max.png" alt="Design 8">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+            <div class="memory-card" data-framework="Match 8">
+                <img class="front-face" src="images/A max.png" alt="Design 8">
+                <img class="back-face" src="images/brainy.png" alt="Card Badge" onclick="incrementClick()">
+            </div>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>
